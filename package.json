@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@sideway/address": "^5.0.0"
+  },
+  "scripts": {
+    "build": "webpack build"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0"
+  }
+}
