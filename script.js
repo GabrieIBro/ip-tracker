@@ -14,10 +14,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 
 //Ipify API call
 
+
 async function fetchData(ip='') {
     try{
         let response = await fetch(`https://geo.ipify.org/api/v2/country,city?apiKey=at_iigVYtkyCX5tQBG3bdCRsCfFBjUMn&ipAddress=${ip}`);
-        
+
         if(!response.ok) {
             throw new Error("Could not fetch data");
         }
